@@ -15,7 +15,7 @@ This is the main notebook containing the model development pipeline for pore pre
 
 1. **Data Loading & Preprocessing**
    - Loads well log data (GR, DT, RHOB, RES, DPHI, OB, HP, TEMP)
-   - Implements well-based train/validation/test splitting (16 training, 5 blind test wells)
+   - Implements well-based train/validation/test splitting (15 training, 5 blind test wells)
 
 3. **Model training**
    - **DFNN:** Deep Feedforward Neural Network (128-64-32-1 architecture)
@@ -111,13 +111,6 @@ scipy==1.7.0
 - Performance evaluation and metrics computation
 - Results visualization
 
-### Pranav Patel
-- Data preprocessing pipeline
-- Feature engineering (physics-informed features)
-- Well-based data splitting strategy
-- Initial data exploration and cleaning
-- Cross-validation framework setup
-- Data quality assessment
 
 ## Results Summary
 
@@ -131,11 +124,5 @@ scipy==1.7.0
 | Transformer | 0.878 | 652 | - |
 | **Meta-Ensemble** | **0.915** | **547** | **397** |
 
-## Contact
 
-For questions about the code or methodology:
-- Rohan Benjamin Varghese: [email]
-- Pranav Patel: [email]
 
----
-*Last Updated: November 2025*
