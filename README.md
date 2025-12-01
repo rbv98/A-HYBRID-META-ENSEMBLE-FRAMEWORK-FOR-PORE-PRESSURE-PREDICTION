@@ -10,7 +10,7 @@ This project develops a hybrid meta-ensemble framework for predicting pore press
 
 ## Main Components
 
-### `model_cleaned.ipynb`
+### `models_results_visualization.ipynb`
 This is the main notebook containing the model development pipeline for pore pressure prediction:
 
 1. **Data Loading & Preprocessing**
